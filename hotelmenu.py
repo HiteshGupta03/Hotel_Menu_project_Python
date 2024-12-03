@@ -24,7 +24,7 @@ elif(Order1 == "Coffe" and Order2 == "No"):
 else:
     total_bill = menu[Order1]+menu[Order2]
     Coupon = (input("Do you have a coupon Code, if yes then enter it? :"))
-    if(Coupon == "Sihab"):
+    if(Coupon == "Hitesh"):
         disc_value = total_bill * menu[Coupon]
         print("Your bill after 20% Discount: ", total_bill - disc_value)
     else:
